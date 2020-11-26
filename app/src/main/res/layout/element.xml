@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEED1"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:textSize="17sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/journal"
+        android:textSize="15sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+    <TextView
+        android:id="@+id/year"
+        android:textSize="15sp"
+        android:layout_marginStart="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+    <TextView
+        android:layout_marginStart="10sp"
+        android:id="@+id/pages"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+</LinearLayout>
